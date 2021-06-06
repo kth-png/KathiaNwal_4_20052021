@@ -75,5 +75,8 @@ deny from all
 # protection de la lecture des répertoires
 Options -Indexes
 
-# stratégie due protection de contenu
-Content-Security-Policy: default-src 'self';
+# Content-Security-Policy
+<IfModule mod_headers.c>
+    Header set Content-Security-Policy "default-src 'self'"
+</IfModule>
+# /Content-Security-Policy
