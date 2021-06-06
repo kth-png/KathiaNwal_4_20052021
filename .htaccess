@@ -77,6 +77,6 @@ Options -Indexes
 
 # Content-Security-Policy
 <IfModule mod_headers.c>
-    Header set Content-Security-Policy "default-src 'self'"
+    Header set Content-Security-Policy "default-src 'self'; style-src 'self' kit.fontawesome.com; script-src 'self' code.jquery.com"
 </IfModule>
 # /Content-Security-Policy
