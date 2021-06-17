@@ -6,6 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+:root {
+  --color-primary: #f3976c;
+  --color-primary-dark: #c27956;
+  --color-secondary: #364577;
+  --color-tertiary: #424242;
+}
 .description-title {
   font-weight: bold;
 }
@@ -63,6 +69,9 @@ a:hover {
   -moz-background-size: auto !important;
   -o-background-size: auto !important;
   background-size: auto !important;
+}
+.bgc-secondary{
+  background-color: var(--color-secondary);
 }
 .rel {
   position: relative;
@@ -555,7 +564,7 @@ label,
 p {
   font-family: helvetica;
   font-weight: 400;
-  color: #424242 !important;
+  color: var(--color-tertiary) !important;
 }
 .container {
   max-width: 1000px;
@@ -604,7 +613,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333 !important;
+  color: var(--color-tertiary) !important;
 }
 .med-width-whitespace {
   max-width: 800px;
@@ -650,14 +659,14 @@ h3 {
   color: #f3976c !important;
 }
 .text-contrast {
-  color: #424242 !important;
+  color: var(--color-tertiary) !important;
 }
 .btn-atomic-tangerine {
   background: #f3976c;
 }
 .btn-atomic-tangerine:hover {
   background: #fcb899 !important;
-  color: #424242 !important;
+  color: var(--color-tertiary) !important;
   transform: scale(1.06);
 }
 .ltc-white {
