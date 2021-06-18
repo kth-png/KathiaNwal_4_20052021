@@ -24,6 +24,9 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+.nav a{
+  font-weight: bold;
+}
 #page-loading-blocs-notifaction {
   position: fixed;
   top: 0;
@@ -885,7 +888,7 @@ h3 {
 }
 @media (min-width: 320px) {
   .bg-banniere {
-    background-image: url(img/la-chouette-agence-banniere_xs.jpg);
+    background-image: url(img/la-chouette-agence-banniere_m.jpg);
   }
   .bg-presentation {
     background-image: url(img/image-de-presentation-1-s.jpg);
