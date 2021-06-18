@@ -651,6 +651,12 @@ h3 {
   font-weight: 900;
   text-decoration: underline !important;
 }
+.col-sm-6 a{
+  display:block;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
 .bgc-white {
   background-color: #fff;
 }
