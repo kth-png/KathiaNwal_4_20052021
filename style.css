@@ -749,6 +749,9 @@ h3 {
   }
 }
 @media (max-width: 767px) {
+  .image-resize-mode{
+    display: none;
+  }
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -885,6 +888,7 @@ h3 {
     width: 180px;
     height: 320px;
   }
+
 }
 @media (max-width: 400px) {
   .bloc {
