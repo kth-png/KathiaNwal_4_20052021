@@ -898,7 +898,7 @@ h3 {
 }
 @media (min-width: 320px) {
   .bg-banniere {
-    background-image: url(img/la-chouette-agence-banniere_m.jpg);
+    background-image: url(img/la-chouette-agence-banniere_m.webp);
   }
   .bg-presentation {
     background-image: url(img/image-de-presentation-1-s.jpg);
@@ -906,7 +906,7 @@ h3 {
 }
 @media (min-width: 620px) {
   .bg-banniere {
-    background-image: url(img/la-chouette-agence-banniere_m.jpg);
+    background-image: url(img/la-chouette-agence-banniere_m.webp);
   }
   .bg-presentation {
     background-image: url(img/image-de-presentation-1-m.jpg);
